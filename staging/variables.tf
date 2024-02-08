@@ -1,11 +1,11 @@
 variable "aws_access_key" {
   type    = string
-  default = ""
+  default = "aws_access_key"
 }
 
 variable "aws_secret_key" {
   type    = string
-  default = ""
+  default = "aws_secret_key"
 }
 
 // ==== EC2 ====
